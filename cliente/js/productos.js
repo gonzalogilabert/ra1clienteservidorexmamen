@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     card.innerHTML = `
       <div class="card h-100 shadow-sm">
         <div class="card-body text-center">
+        <img src="${p.img}" class="card-img-top" alt="${p.nombre}">
           <h5 class="card-title">${p.nombre}</h5>
           <p class="card-text">${p.descripcion}</p>
           <p class="fw-bold">${p.precio.toFixed(2)} €</p>
